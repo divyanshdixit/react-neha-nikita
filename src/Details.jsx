@@ -4,7 +4,7 @@ const DetailComponent = () => {
     return (
         <div>
             <HeadingComponent from="detail" />
-            <p> Para </p>
+            <p> Para new </p>
         </div>
     )
 }
