@@ -1,10 +1,14 @@
-import HeadingComponent from "./Heading"
+import HeadingComponent from "./Heading";
 
 const DetailComponent = () => {
     return (
         <div>
             <HeadingComponent from="detail" />
-            <p> Para new </p>
+            
+            <div>
+                <p> sdasd</p>
+            </div>
+
         </div>
     )
 }
