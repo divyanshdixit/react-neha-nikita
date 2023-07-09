@@ -15,3 +15,26 @@ import/export
 Calculator application: 
 
 virtualDom => 
+
+                                App n1 = 10
+                            Calculator n1
+                                Add n1
+                                ..
+
+ sending a prop from parent to nested children component => prop drilling
+ send a prop from child to parent => prop lifting
+
+ context api  => solution for prop drilling 
+
+ from child to parent (value) => make function in parent , send it to prop to child, then call it in child component
+
+
+                                App 
+
+                            A (n1)      B      C 
+                        A1 b1 C1  A2 B2     A3 C3
+                        A2 B2
+                            B3 n1 = 10
+
+
+read about "key" prop used in loops.
