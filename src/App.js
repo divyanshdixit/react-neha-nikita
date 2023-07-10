@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import Export ,{NewVal} from './components/Export';
 import Calculator from './components/Calculator';
 import Arrays from './components/Arrays';
+import Conditional, { Conditional2 } from './components/Conditional';
+import BasicClassComponent from './components/BasicClassComponent';
 
 function App() { // parent component 
   const n1 = 10;
@@ -31,6 +33,9 @@ function App() { // parent component
       <NewVal/>
       <Calculator n1={n1} n2={n2} getValueFromChild={getValueFromChild} getValueFromAdd={getValueFromAdd}/> // child component
       <Arrays arr={arr}/>
+      <Conditional/>
+      <Conditional2/>
+      <BasicClassComponent/>
     </div>
   );
 }

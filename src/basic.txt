@@ -38,3 +38,17 @@ virtualDom =>
 
 
 read about "key" prop used in loops.
+read about "state".
+
+
+Basic class component=> lifecycle phases
+
+Hooks => 16.8  
+
+hooks are the first thing that can ne written on the fisrt line of component
+
+useState 
+
+class component / functional component => dumb component
+
+stateful component  / stateless component
