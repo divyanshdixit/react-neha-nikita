@@ -8,6 +8,8 @@ import Calculator from './components/Calculator';
 import Arrays from './components/Arrays';
 import Conditional, { Conditional2 } from './components/Conditional';
 import BasicClassComponent from './components/BasicClassComponent';
+import UseStateHook from './components/UseStateHook';
+import UseStateHook1 from './components/UseStateHook1';
 
 function App() { // parent component 
   const n1 = 10;
@@ -31,6 +33,8 @@ function App() { // parent component
       <DetailComponent/>
       <Export/>
       <NewVal/>
+      <UseStateHook/>
+      <UseStateHook1/>
       <Calculator n1={n1} n2={n2} getValueFromChild={getValueFromChild} getValueFromAdd={getValueFromAdd}/> // child component
       <Arrays arr={arr}/>
       <Conditional/>
