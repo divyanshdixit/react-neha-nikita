@@ -16,10 +16,10 @@ Calculator application:
 
 virtualDom => 
 
-                                App n1 = 10
-                            Calculator n1
+                                App function 
+                            Calculator n1 = 10 , function as prop, call that function(10)
                                 Add n1
-                                ..
+                                Sum
 
  sending a prop from parent to nested children component => prop drilling
  send a prop from child to parent => prop lifting
@@ -47,7 +47,7 @@ Hooks => 16.8
 
 hooks are the first thing that can ne written on the fisrt line of component
 
-useState 
+1- useState Hook: const [state, setState] = useState(initialValue);
 
 class component / functional component => dumb component
 
