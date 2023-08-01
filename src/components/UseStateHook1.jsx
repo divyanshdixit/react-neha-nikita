@@ -32,7 +32,7 @@ const UseStateHook1 = () => {
 
   const handleDelete = (id) => {
     const n1 = items.filter((i, idx) => {
-      return id !== idx
+      return id !== idx // 0!==0 // 0 remove
     })
     setItems(n1);
   };
