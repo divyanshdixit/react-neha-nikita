@@ -11,6 +11,7 @@ import BasicClassComponent from './components/BasicClassComponent';
 import UseStateHook from './components/UseStateHook';
 import UseStateHook1 from './components/UseStateHook1';
 import UseEffectHook from './components/UseEffectHook';
+import Parent from './components/Parent';
 
 function App() { // parent component 
   const n1 = 10;
@@ -42,6 +43,7 @@ function App() { // parent component
       <Conditional2/>
       <BasicClassComponent/>
       <UseEffectHook/>
+      <Parent/>
     </div>
   );
 }
