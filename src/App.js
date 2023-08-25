@@ -12,6 +12,10 @@ import UseStateHook from './components/UseStateHook';
 import UseStateHook1 from './components/UseStateHook1';
 import UseEffectHook from './components/UseEffectHook';
 import Parent from './components/Parent';
+import Refs from './components/refs';
+import Counter1 from './components/Counter1';
+import Counter2 from './components/Counter2';
+import HocComponent from './components/Hoc';
 
 function App() { // parent component 
   const n1 = 10;
@@ -44,6 +48,10 @@ function App() { // parent component
       <BasicClassComponent/>
       <UseEffectHook/>
       <Parent/>
+      <Refs/>
+      <Counter1/>
+      <Counter2/>
+      {/* <HocComponent/> */}
     </div>
   );
 }

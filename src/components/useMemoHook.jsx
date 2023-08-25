@@ -1,15 +1,16 @@
 // useMemo , React.memo, useCallback => optimization =
 
+
 import { useCallback, useEffect, useMemo, useState } from "react"
 
-useCallback() => cache => 
+// useCallback() => cache => 
 
-1 + 2 => 3
+// 1 + 2 => 3
 
-useEffect(() => {}, [])
+// useEffect(() => {}, [])
 
-useCallback(() => {}, []) => whole function cache 
-useMemo(() => {}, []); => cache single value 
+// useCallback(() => {}, []) => whole function cache 
+// useMemo(() => {}, []); => cache single value 
 
 
 import React from 'react'
@@ -28,7 +29,7 @@ function useMemoHook() {
 
     const valuefromcallback = useCallback(() => {
         return sumvlaue(3,4)
-    }, [n1,n2])
+    }, [n1,n2]);
   return (
     <>
     <div>useMemoHook</div>
@@ -39,5 +40,7 @@ function useMemoHook() {
   )
 }
 
+
+
 export default useMemoHook
-export default React.memo(Component)
+// export default React.memo(Component)
