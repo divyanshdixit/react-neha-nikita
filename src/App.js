@@ -16,6 +16,8 @@ import Refs from './components/refs';
 import Counter1 from './components/Counter1';
 import Counter2 from './components/Counter2';
 import HocComponent from './components/Hoc';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes';
 
 function App() { // parent component 
   const n1 = 10;
@@ -33,8 +35,11 @@ function App() { // parent component
 
   return (
     <div className="App" id='' >
+      <RouterProvider router={router}>
+    
+      </RouterProvider>
       {/* dom element => html tag */}
-      <HeadingComponent from="app" id="heading1" value={<NewVal/>}/>
+      {/* <HeadingComponent from="app" id="heading1" value={<NewVal/>}/>
       <HeadingComponent from="apps" id="heading2"/>
       <DetailComponent/>
       <Export/>
@@ -50,7 +55,7 @@ function App() { // parent component
       <Parent/>
       <Refs/>
       <Counter1/>
-      <Counter2/>
+      <Counter2/> */}
       {/* <HocComponent/> */}
     </div>
   );
