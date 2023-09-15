@@ -2,20 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 
 const Home = () => {
-    const [user, setUser] = useState('');
-
-    useEffect(() => {
-        setTimeout(() => {
-            setUser('divyansh');
-        }, 5000);
-    },[]);
 
   return (
     <div>
         <h1> Home page  </h1>
-        {user && 
-        <Navigate to='/vision'/>
-        }
 
         {/* <a href='/about'> About Us </a> */}
         <Link to='about'> About us </Link>

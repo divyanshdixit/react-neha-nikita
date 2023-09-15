@@ -19,6 +19,7 @@ import HocComponent from './components/Hoc';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './routes';
 
+
 function App() { // parent component 
   const n1 = 10;
   const n2 = 20;
@@ -35,9 +36,6 @@ function App() { // parent component
 
   return (
     <div className="App" id='' >
-      <RouterProvider router={router}>
-    
-      </RouterProvider>
       {/* dom element => html tag */}
       {/* <HeadingComponent from="app" id="heading1" value={<NewVal/>}/>
       <HeadingComponent from="apps" id="heading2"/>
